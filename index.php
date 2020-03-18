@@ -85,7 +85,7 @@ function create_response($text, $message)
     $command = explode(' ',$textur,2); 
                 
     if ($text == "/start") {
-        return "Selamat Datang di BOT Wisata Batu, untuk mengetahui informasi tentang wisata apa saja di Kota Batu, ketikkan nama wisata yang ingin anda tuju";
+        return "selamat datang di kemangkres, Kemangkres merupakan sebuah perusahaan yang berjalan di bidang pendidikan,";
     }else{
         $conn=mysqli_connect("us-cdbr-iron-east-05.cleardb.net","be48be394c01ae","5c63cb14","heroku_e70b0b2d5f1e0f2");
         $nama_wisata = $text;
