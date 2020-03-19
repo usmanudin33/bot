@@ -87,7 +87,7 @@ function create_response($text, $message)
     if ($text == "/start") {
         return "selamat datang di kemangkres,,";
     }else{
-        $conn=mysqli_connect("us-cdbr-iron-east-05.cleardb.net","be48be394c01ae","5c63cb14","heroku_e70b0b2d5f1e0f2");
+        $conn=mysqli_connect("localhost","root","","wisata_kota_batu");
         $nama_wisata = $text;
         $jum_input = count(explode(" ",$nama_wisata));
         // pecahan kata2
